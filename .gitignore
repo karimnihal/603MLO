@@ -14,7 +14,6 @@ env/
 .venv/
 *.env
 *.venv
-# Note: Since you're using a centrally located uv venv, it shouldn't be in the repo.
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -31,3 +30,23 @@ Thumbs.db
 # IDE and Editor directories
 .vscode/
 .idea/
+
+# ========== MLFlow + Lab 2 Specific ==========
+
+# MLFlow run data and tracking DB
+mlruns/
+mlflow.db
+
+# Saved data and models
+data_cleaned/
+images/
+models/
+*.parquet
+*.pkl
+
+# If you save temp models or artifacts here
+notebooks/lab2/__pycache__/
+notebooks/lab2/save_data/
+notebooks/lab2/*.pkl
+notebooks/lab2/*.parquet
+notebooks/lab2/*.joblib
