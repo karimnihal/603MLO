@@ -50,3 +50,4 @@ notebooks/lab2/save_data/
 notebooks/lab2/*.pkl
 notebooks/lab2/*.parquet
 notebooks/lab2/*.joblib
+/data_cleaned

@@ -33,3 +33,20 @@ stages:
       hash: md5
       md5: adf63b6ce20f7ee74f63d5dabb325226
       size: 10829967
+  preprocess:
+    cmd: python src/preprocessing.py
+    deps:
+    - path: data/AmesHousing.csv
+      hash: md5
+      md5: e51b90d390c1370073753970e322601f
+      size: 963738
+    - path: src/preprocessing.py
+      hash: md5
+      md5: e48c4de397f2f92f09d8d64e9d0061a5
+      size: 2800
+    outs:
+    - path: data_cleaned
+      hash: md5
+      md5: 2b2ff587c0997544666900bbabd66a01.dir
+      size: 554550
+      nfiles: 4
