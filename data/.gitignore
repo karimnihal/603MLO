@@ -1,2 +1,4 @@
 /adult.data
 /adult.test
+/processed_train_data.csv
+/processed_test_data.csv
