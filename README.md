@@ -7,3 +7,19 @@ MLOps Course Repo for Assignments and Labs
 - **data/**: Datasets and data-related files.
 - **models/**: Trained model files and related scripts.
 - **requirements.txt**: Python package dependencies.
+
+## Env
+
+Setup venv:
+
+```bash
+mkdir venv
+venv create mlops
+pip install -r requirements.txt
+```
+
+Activate:
+
+```bash
+source venv/mlops/bin/activate
+```
