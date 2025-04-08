@@ -16,6 +16,7 @@ Setup venv:
 mkdir venv
 cd venv
 venv create mlops
+cd ..
 pip install -r requirements.txt
 ```
 
