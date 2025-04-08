@@ -14,6 +14,7 @@ Setup venv:
 
 ```bash
 mkdir venv
+cd venv
 venv create mlops
 pip install -r requirements.txt
 ```
