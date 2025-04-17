@@ -51,3 +51,7 @@ notebooks/lab2/*.pkl
 notebooks/lab2/*.parquet
 notebooks/lab2/*.joblib
 /data_cleaned
+
+
+# ========== Lab 5 Specific ==========
+sa-private-key.json
