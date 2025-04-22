@@ -55,3 +55,7 @@ notebooks/lab2/*.joblib
 
 # ========== Lab 5 Specific ==========
 sa-private-key.json
+
+# ========== Lab 6 Specific ==========
+.metaflow/
+mlruns/
