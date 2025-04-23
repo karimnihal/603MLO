@@ -59,3 +59,5 @@ sa-private-key.json
 # ========== Lab 6 Specific ==========
 .metaflow/
 mlruns/
+# ========== Lab 7 Specific ==========
+metaflow-tools/
