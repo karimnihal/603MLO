@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reddit-classifier
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: reddit-classifier
+  template:
+    metadata:
+      labels:
+        app: reddit-classifier
+    spec:
+      containers:
+      - name: reddit-classifier
+        image: redditapp:v1
+        ports:
+        - containerPort: 5050
